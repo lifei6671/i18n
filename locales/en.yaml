@@ -1,0 +1,6 @@
+language: en
+messages:
+  user.login.success: "Welcome back, {name}!"
+  user.login.failed: "Invalid username or password."
+  common.hello: "Hello, {name}."
+  welcome: "Welcome "
