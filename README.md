@@ -294,7 +294,6 @@ i18n/
   i18n.go
   loader.go
   template.go
-  formatters.go
   registry.go
   locales/
     en.yaml
