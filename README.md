@@ -334,14 +334,3 @@ User 咸鱼, price ¥12,345.68, items 5 items, created 2025/11/29
 # License
 
 MIT License
-
----
-
-如果你愿意，我可以：
-
-* 生成 GitHub 专用徽章（Go Report Card、License、Coverage）
-* 生成示例目录与代码
-* 帮你写 CHANGELOG / CONTRIBUTING 文档
-* 帮你生成中文 README（双语版）
-
-需不需要继续增强文档？
