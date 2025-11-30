@@ -41,16 +41,16 @@
 
 支持：
 
-| 功能            | 描述                                                              |   
-| ------------- |-----------------------------------------------------------------| 
-| 嵌套字段          | `{user.name}` / `{order.price}`         |            
-| 数字格式化         | `{price       \| number:2}`                     |            
-| 日期格式化         | `{date  \| date:2006-01-02}`           |            
-| 货币格式化         | `{price      \| currency:¥}`       |            
-| 大小写处理         | `upper/lower/title`     |   
-| 条件表达式         | `{count   \| eq:0?No:{count}}`  |            
-| 链式 Formatter  | `{price          \| number:2 \| currency}` |
-| 自定义 Formatter | `RegisterFormatter("slugify", func…)`    | 
+| 功能            | 描述                                    |   
+| ------------- |---------------------------------------| 
+| 嵌套字段          | `{user.name}` / `{order.price}`       |            
+| 数字格式化         | `{price \| number:2}`                 |            
+| 日期格式化         | `{date \| date:2006-01-02}`           |            
+| 货币格式化         | `{price \| currency:¥}`               |            
+| 大小写处理         | `upper/lower/title`                   |   
+| 条件表达式         | `{count \| eq:0?No:{count}}`          |            
+| 链式 Formatter  | `{price \| number:2 \| currency}`     |
+| 自定义 Formatter | `RegisterFormatter("slugify", func…)` | 
 
 ---
 
@@ -152,16 +152,16 @@ fmt.Println(msg)
 
 默认支持以下 Formatter：
 
-| Name       | 示例                                                                                 | 说明                |             
-| ---------- |------------------------------------------------------------------------------------| ----------------- | 
-| number     | `{p    \| number}`   | 千分位格式化（无小数） |
-| number:2   | `{p    \| number:2}`       | 指定小数位       |
-| currency   | `{p    \| currency}`                               | 默认 `$`      |
-| currency:¥ | `{p    \| currency:¥}`     | 自定义符号       |
-| date       | `{t    \| date:2006-01-02}` | Go 时间格式化    |
-| upper      | `{name \| upper}`                    | 全大写         |
-| lower      | `{name \| lower}`                              | 全小写         |
-| title      | `{name \| title}` | 首字母大写       |
+| Name       | 示例                       | 说明                |             
+| ---------- |--------------------------| ----------------- | 
+| number     | `{p \| number}`          | 千分位格式化（无小数） |
+| number:2   | `{p \| number:2}`        | 指定小数位       |
+| currency   | `{p \| currency}`        | 默认 `$`      |
+| currency:¥ | `{p \| currency:¥}`      | 自定义符号       |
+| date       | `{t \| date:2006-01-02}` | Go 时间格式化    |
+| upper      | `{name \| upper}`        | 全大写         |
+| lower      | `{name \| lower}`        | 全小写         |
+| title      | `{name \| title}`        | 首字母大写       |
 
 支持链式调用：
 
